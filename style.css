@@ -75,18 +75,21 @@ nav {
 
 
 /* intro section */
+.main-intro{
+    justify-content: space-between;
+}
 .intro{
     background: url(./images/Vector-2.png);
 }
 .intro>.title-1 {
     color: #0B0223;
-    font-size: 48px;
+    font-size: 3em;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 .intro .title-2 {
-    font-size: 95px;
+    font-size: 6rem;
     font-style: normal;
     font-weight: 800;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -129,6 +132,9 @@ nav {
 .btn-2 {
     background-color: #4EC5F7;
 }
+.intro-images > img{
+    width: 100%;
+}
 
 /* ==================================== */
 /* Media query for mobile devices */
@@ -136,7 +142,7 @@ nav {
     .container {
         width: 100%;
     }
-
+    /* nav section */
     nav {
         height: auto;
         padding: 1.25rem 0;
@@ -149,5 +155,18 @@ nav {
 
     .menu {
         margin-top: 3rem;
+    }
+    /* intro section */
+    /* .intro{
+        margin: 0px 3rem;
+    } */
+    .intro-images > img{
+        /* width: 100%;
+        padding: 20px; */
+    }
+    .main-intro{
+        flex-direction: column-reverse;
+        gap: 60px;
+        margin-top: 74px;
     }
 }
