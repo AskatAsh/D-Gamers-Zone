@@ -18,10 +18,9 @@
     align-items: center;
 }
 
+/* ==================================== */
+
 /* Navigation section */
-/* header.container {
-    margin-top: 2.25rem;
-} */
 
 ul li {
     list-style-type: none;
@@ -33,9 +32,11 @@ ul li a {
     font-size: 1.2rem;
     font-weight: 500;
 }
-.logo{
+
+.logo {
     cursor: pointer;
 }
+
 .logo>img {
     margin-right: 1.25rem;
     height: 2.5rem;
@@ -49,10 +50,12 @@ ul li a {
 .logo-text>span {
     color: #FF42A5;
 }
-nav{
+
+nav {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     height: 130px;
 }
+
 .navbar {
     justify-content: space-between;
 }
@@ -68,21 +71,83 @@ nav{
     gap: 1.5rem;
 }
 
+/* ==================================== */
 
 
+/* intro section */
+.intro{
+    background: url(./images/Vector-2.png);
+}
+.intro>.title-1 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.intro .title-2 {
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 2rem;
+}
+
+.intro>.title-list {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.title-list>div {
+    height: 24px;
+}
+
+.buttons {
+    gap: 24px;
+    margin-top: 2.5rem;
+}
+
+.buttons>button {
+    padding: 20px 40px;
+    border-radius: 48px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.btn-1 {
+    background-color: #FF42A5;
+}
+.btn-2 {
+    background-color: #4EC5F7;
+}
+
+/* ==================================== */
 /* Media query for mobile devices */
 @media screen and (max-width: 576px) {
-    .container{
+    .container {
         width: 100%;
     }
-    nav{
+
+    nav {
         height: auto;
         padding: 1.25rem 0;
     }
-    .navbar, .menu{
+
+    .navbar,
+    .menu {
         flex-direction: column;
     }
-    .menu{
+
+    .menu {
         margin-top: 3rem;
     }
 }
