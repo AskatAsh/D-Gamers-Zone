@@ -19,7 +19,7 @@
 }
 
 /* Navigation section */
-header {
+header.container {
     margin-top: 2.25rem;
 }
 
@@ -63,4 +63,19 @@ nav {
     padding: 1rem 1.5rem;
     border-radius: 8px;
     gap: 1.5rem;
+}
+
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+    nav, .menu{
+        flex-direction: column;
+    }
+    .menu{
+        margin-top: 3rem;
+    }
 }
