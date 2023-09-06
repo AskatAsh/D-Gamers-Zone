@@ -302,7 +302,30 @@ nav {
 
 /* ==================================== */
 
+/* other links section */
+.other-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.link{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    /* border: 2px solid; */
+    border-radius: 50px;
+    gap: 10px;
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: var(--dark-pink);
+    border: 2px solid var(--dark-pink);
+}
 
+/* ==================================== */
 
 /* Media query for mobile devices */
 @media screen and (max-width: 576px) {
