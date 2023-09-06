@@ -366,6 +366,12 @@ nav {
 .tags>li>a:hover{
     color: var(--dark-pink);
 }
+.other-pages>li>a{
+    color: rgba(255, 255, 255, 0.60);
+}
+
+
+
 /* Media query for mobile devices */
 @media screen and (max-width: 576px) {
     .container {
