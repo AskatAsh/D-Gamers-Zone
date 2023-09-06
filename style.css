@@ -33,7 +33,9 @@ span {
 .t-center{
     text-align: center;
 }
-
+.h-center{
+    justify-content: center;
+}
 /* ==================================== */
 
 
@@ -345,9 +347,25 @@ nav {
 .footer-section{
     background-color: var(--almost-black);
     margin-top: 100px;
+    padding: 100px 0px;
 }
-
-
+.logo-2{
+    color: #FFF;
+    justify-content: center;
+}
+.tags{
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tags>li>a{
+    color: #fff;
+    font-size: 1rem;
+}
+.tags>li>a:hover{
+    color: var(--dark-pink);
+}
 /* Media query for mobile devices */
 @media screen and (max-width: 576px) {
     .container {
