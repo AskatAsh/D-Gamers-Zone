@@ -354,7 +354,7 @@ nav {
     justify-content: center;
 }
 .tags{
-    gap: 50px;
+    gap: 30px;
     flex-wrap: wrap;
     margin-top: 60px;
     padding: 0px 10px;
@@ -369,7 +369,15 @@ nav {
 .other-pages>li>a{
     color: rgba(255, 255, 255, 0.60);
 }
-
+.copyright{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    margin-top: 30px;
+}
+.copyright>span{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1.25rem;
+}
 
 
 /* Media query for mobile devices */
