@@ -356,8 +356,8 @@ nav {
 .tags{
     gap: 50px;
     flex-wrap: wrap;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 60px;
+    padding: 0px 10px;
 }
 .tags>li>a{
     color: #fff;
