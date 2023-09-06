@@ -30,8 +30,12 @@ span {
 .spacer {
     height: 120px;
 }
+.t-center{
+    text-align: center;
+}
 
 /* ==================================== */
+
 
 /* Navigation section */
 
@@ -336,6 +340,13 @@ nav {
 }
 
 /* ==================================== */
+
+/* footer section */
+.footer-section{
+    background-color: var(--almost-black);
+    margin-top: 100px;
+}
+
 
 /* Media query for mobile devices */
 @media screen and (max-width: 576px) {
