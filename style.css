@@ -256,6 +256,47 @@ nav {
 
 /* ==================================== */
 
+/* career section */
+.career-section{
+    background-color: var(--dark-pink);
+    margin-top: 200px;
+    gap: 20px;
+}
+.career-left{
+    color: white;
+    padding: 50px;
+    width: 50%;
+}
+.career-left>h2{
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+.career-left>p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.career-left>.list-section{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.career-left>button{
+    padding: 20px 30px;
+    color: var(--dark-pink);
+    background: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.career-right{
+    width: 50%;
+}
+.career-right>img{
+    width: 100%;
+}
+
+/* ==================================== */
 
 /* Media query for mobile devices */
 @media screen and (max-width: 576px) {
