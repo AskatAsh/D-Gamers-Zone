@@ -263,8 +263,10 @@ nav {
 /* ==================================== */
 
 /* career section */
-.career-section {
+.career{
     background-color: var(--dark-pink);
+}
+.career-section {
     margin-top: 200px;
     gap: 20px;
 }
